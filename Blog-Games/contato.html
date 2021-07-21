@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contsto</title>
+</head>
+<body>
+
+    <ul class="menu container">
+        <li>
+            <a href="index.html"><img src="img/—Pngtree—a video game controller clip_6027742.png" width="30px"
+                    height="27px"></a>
+        </li>
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+
+        <li>
+            <a href="Produtos.html">Games</a>
+        </li>
+
+        <li>
+            <a href="Historia dos Games.html">Historia dos Games</a>
+        </li>
+            
+        <li>
+            <a href="contato.html">Contato</a>
+        </li>
+    </ul>
+
+    
+    
+
+    <div class="container">
+       <div class="p-50 justify">
+          <form>
+
+            <h1>Entre em contato comigo</h1>
+             <label for="nome">Nome:</label> <br>
+             <input type="text" id="nome" onkeyup='validaNome()'>
+             <div id='txtNome'></div>
+             <br>
+             <label for="email">E-mail:</label> <br>
+             <input type="email" id="email" onkeyup='validaEmail()'>
+             <div id='txtEmail'></div>
+             <br>
+             <label for="assunto">Assunto:</label> <br>
+             <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+             <div id='txtAssunto'></div>
+             <br>
+             <br>
+             <button onclick="enviar()" >Enviar</button>
+          </form>
+       </div>
+    
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.998006374119!2d-46.596791985022044!3d-23.568515084679305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5954bc2e8713%3A0x46423f350de2a28d!2sRua%20Celso%20de%20Azevedo%20Marques%20-%20Parque%20da%20Mooca%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003122-010!5e0!3m2!1spt-BR!2sbr!4v1626790023754!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id='mapa'></iframe>
+    
+    
+
+    </div>
+
+
+<hr>
+
+    <p class="justify">
+        Todos os direitos reservados: Felipe Giacomelli &copy
+    </p>
+    </p>   
+
+<script src="assets/js/script.js"></script>   
+</body>
+</html>
